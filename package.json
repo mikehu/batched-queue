@@ -1,0 +1,40 @@
+{
+  "name": "batched-queue",
+  "version": "0.0.1",
+  "description": "A simple queue to batch a series of payloads to execute some function every X items or Y milliseconds, whichever happens first.",
+  "main": "src/batched-queue.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikehu/batched-queue.git"
+  },
+  "keywords": [
+    "batch",
+    "timeout",
+    "interval",
+    "queue",
+    "buffered",
+    "buffer",
+    "cargo",
+    "items",
+    "series",
+    "limit",
+    "throttled"
+  ],
+  "author": "Mike Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikehu/batched-queue/issues"
+  },
+  "homepage": "https://github.com/mikehu/batched-queue#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3"
+  }
+}
